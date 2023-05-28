@@ -13,7 +13,7 @@ body {
 button {
     background-color: rgb(0, 0, 0);
     color: rgb(241, 227, 246);
-    transition-duration: 0.4s;
+    transition-duration: 0.7s;
 
     font-size: x-large;
     font-family: 'Archivo Black', sans-serif;
@@ -28,15 +28,32 @@ button {
 
 button:hover {
     border: 3px solid rgb(88, 0, 255);
-    color: rgb(241, 227, 246);
+    color: rgb(88, 0, 255);
+}
+
+button:active {
+    
+}
+
+.eqSign {
+    color: rgb(255, 198, 0);
+    width: 348px;
+} 
+
+.signs {
+    color: rgb(255, 198, 0);
+}
+
+.delBut {
+    color: rgb(233, 0, 255);
+}
+
+.caBut {
+    color: rgb(233, 0, 255);
 }
 
 .container {
    
-}
-
-.eqSign {
-    width: 364px;
 }
 
 .calcScreen {
