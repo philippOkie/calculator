@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Luckiest+Guy&display=swap');
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-weight: 1000;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(241, 227, 246);
+    transition-duration: 0.4s;
+
+    font-size: x-large;
+    font-family: 'Archivo Black', sans-serif;
+    border: 2px solid;
+    border-style: none;
+    
+    border-radius: 2px;
+    margin: 10px;  
+    width: 170px;
+    height: 70px; 
+}
+
+button:hover {
+    border: 3px solid rgb(88, 0, 255);
+    color: rgb(241, 227, 246);
+}
+
+.container {
+   
+}
+
+.eqSign {
+    width: 364px;
+}
+
+.calcScreen {
+    font-size: x-large;
+    font-family: 'Archivo Black', sans-serif;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(88, 0, 255);
+    color: rgb(241, 227, 246);
+    direction: rtl;
+    padding: 5px;
+    border-style: none;
+    border-radius: 2px;
+    height: 70px;
+    width: 600px;
+    margin-left: 78px;
+    margin-bottom: 10px;
+}
