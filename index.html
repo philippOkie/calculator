@@ -18,10 +18,10 @@
 
             <div class="calcButtons">
                 <div class="row">
-                    <button onclick='ac()' class="caBut" id="caSign">AC</button>
-                    <button class="delBut" id="delBut">DEL</button>
-                    <button onclick="divide()" class="signs" id="mulButton">/</button>
-                    <button onclick="multiply()" class="signs" id="xButton">*</button>
+                    <button onclick='ac()' class="caBut">AC</button>
+                    <button onclick='del()' class="delBut">DEL</button>
+                    <button onclick="divide()" class="signs">/</button>
+                    <button onclick="multiply()" class="signs">*</button>
                 </div>
 
                 <div class="row">
@@ -35,20 +35,20 @@
                     <button onclick="showValue(4)">4</button>
                     <button onclick="showValue(5)">5</button>
                     <button onclick="showValue(6)">6</button>
-                    <button onclick="add()" class="signs" id="pluSign">+</button>
+                    <button onclick="add()" class="signs">+</button>
                 </div>
 
                 <div class="row">
                     <button onclick="showValue(7)">7</button>
                     <button onclick="showValue(8)">8</button>
                     <button onclick="showValue(9)">9</button>
-                    <button class="signs">.</button>
+                    <button onclick="addComma()" class="signs">.</button>
                 </div>
 
                 <div class="row">
-                    <button>+/-</button>
+                    <button onclick="window.location.href='https://github.com/philippOkie';" class="github">GH</button>
                     <button onclick="showValue(0)">0</button>
-                    <button  onclick="eq()" class="eqSign" id="eqSign">=</button>
+                    <button onclick="getResult()" class="eqSign" id="eqSign">=</button>
                 </div>
             </div>
         </div>

@@ -70,3 +70,7 @@ button:active {
     margin-left: 78px;
     margin-bottom: 10px;
 }
+
+.github {
+    color: rgb(233, 0, 255);
+}
