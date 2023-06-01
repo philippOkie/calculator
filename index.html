@@ -13,41 +13,41 @@
 
         <div class="container">
             <div class="calcScreenFrame">
-                <input type="text" class="calcScreen" id="display">
+                <input type="text" class="calcScreen" id="pressed" value="">
             </div>
 
             <div class="calcButtons">
                 <div class="row">
                     <button class="caBut" id="caSign">CA</button>
                     <button class="delBut" id="delBut">DEL</button>
-                    <button class="signs" id="mulButton">/</button>
-                    <button class="signs" id="xButton">*</button>
+                    <button onclick="" class="signs" id="mulButton">/</button>
+                    <button onclick="" class="signs" id="xButton">*</button>
                 </div>
 
                 <div class="row">
-                    <button>1</button>
-                    <button>2</button>
-                    <button>3</button>
-                    <button class="signs" id="minSign">-</button>
+                    <button onclick="showValue(1)">1</button>
+                    <button onclick="showValue(2)">2</button>
+                    <button onclick="showValue(3)">3</button>
+                    <button onclick="" class="signs">-</button>
                 </div>
 
                 <div class="row">
-                    <button>4</button>
-                    <button>5</button>
-                    <button>6</button>
-                    <button class="signs" id="pluSign">+</button>
+                    <button onclick="showValue(4)">4</button>
+                    <button onclick="showValue(5)">5</button>
+                    <button onclick="showValue(6)">6</button>
+                    <button onclick="" class="signs" id="pluSign">+</button>
                 </div>
 
                 <div class="row">
-                    <button>7</button>
-                    <button>8</button>
-                    <button>9</button>
+                    <button onclick="showValue(7)">7</button>
+                    <button onclick="showValue(8)">8</button>
+                    <button onclick="showValue(9)">9</button>
                     <button class="signs">.</button>
                 </div>
 
                 <div class="row">
                     <button>+/-</button>
-                    <button>0</button>
+                    <button onclick="showValue(0)">0</button>
                     <button class="eqSign" id="eqSign">=</button>
                 </div>
             </div>

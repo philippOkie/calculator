@@ -1,20 +1,16 @@
-const button = document.getElementById('myButton');
-const display = document.getElementById('display');
+const buttons = document.querySelector('#numButtons')
+const display = document.querySelector('#display')
+const result = ""
 
-
-button.addEventListener('click', displayValue)
-
-function displayValue() {
-    const buttonValue = button.innerHTML;
+const showValue = function(val){
+    document.querySelector('#pressed').value += val
+    return val
+}
+ 
+const add = function() {
     
-    buttonValue += button.innerHTML;
-    display.value = buttonValue; 
 }
 
-
-
-
-//add
 //subtract
 //multiply
 //divide
