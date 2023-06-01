@@ -18,24 +18,24 @@
 
             <div class="calcButtons">
                 <div class="row">
-                    <button class="caBut" id="caSign">CA</button>
+                    <button onclick='ac()' class="caBut" id="caSign">AC</button>
                     <button class="delBut" id="delBut">DEL</button>
-                    <button onclick="" class="signs" id="mulButton">/</button>
-                    <button onclick="" class="signs" id="xButton">*</button>
+                    <button onclick="divide()" class="signs" id="mulButton">/</button>
+                    <button onclick="multiply()" class="signs" id="xButton">*</button>
                 </div>
 
                 <div class="row">
                     <button onclick="showValue(1)">1</button>
                     <button onclick="showValue(2)">2</button>
                     <button onclick="showValue(3)">3</button>
-                    <button onclick="" class="signs">-</button>
+                    <button onclick="subtract()" class="signs">-</button>
                 </div>
 
                 <div class="row">
                     <button onclick="showValue(4)">4</button>
                     <button onclick="showValue(5)">5</button>
                     <button onclick="showValue(6)">6</button>
-                    <button onclick="" class="signs" id="pluSign">+</button>
+                    <button onclick="add()" class="signs" id="pluSign">+</button>
                 </div>
 
                 <div class="row">
@@ -48,7 +48,7 @@
                 <div class="row">
                     <button>+/-</button>
                     <button onclick="showValue(0)">0</button>
-                    <button class="eqSign" id="eqSign">=</button>
+                    <button  onclick="eq()" class="eqSign" id="eqSign">=</button>
                 </div>
             </div>
         </div>
