@@ -42,9 +42,27 @@ const addComma = function() {
 
 const getResult = function() {
     result = display.value.split(" ")
+    
     for (let i = 0; i < result.length; i++) {
-        
+        if (result[i] !== "+" && result[i] !== "-" && 
+            result[i] !== "*" && result[i] !== "/") {
+                result[i] = parseInt(result[i])
+            }
     }
-    console.log(result)
+    
+    for (let i = 0; i < result.length; i++) {
+        if (result[i] === '+' || result[i] === '-' ||
+            result[i] === '/' || result[i] === '*') {
+            const number = doOperations(result, i)
+            result.splice(i - 1, 3, number)
+        }
+    }
+    display.value = result
 }
 
+const doOperations = function(arr, i) {
+    if (arr[i] === '+' ) return arr[i - 1] + arr[i + 1]
+    if (arr[i] === '-' ) return arr[i - 1] - arr[i + 1]
+    if (arr[i] === '/' ) return arr[i - 1] / arr[i + 1]
+    if (arr[i] === '*' ) return arr[i - 1] * arr[i + 1]
+}
