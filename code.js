@@ -23,10 +23,6 @@ const divide = function() {
     display.value = display.value + " / "
 }
 
-const eq = function() {
-    display.value = eval(display.value) 
-}
-
 const ac = function() {
     display.value = ""
     console.log("EVERYTHING DELETED")
